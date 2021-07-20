@@ -1,0 +1,29 @@
+header#home {
+  height: 100vh;
+
+  nav.navbar {
+    .container {
+      .navbar-list {
+        .nav {
+          .nav-item {
+            a.nav-link {
+              border-bottom: 4px solid transparent;
+              &:hover {
+                color: #28a745 !important;
+                border-bottom: 4px solid #28a745;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section#who {
+    height: 100%;
+
+    .container {
+      height: 100%;
+    }
+  }
+}
