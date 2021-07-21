@@ -3,11 +3,18 @@ header#home {
 
   nav.navbar {
     .container {
-      .navbar-list {
-        .nav {
-          .nav-item {
+      .navbar-brand {
+        img {
+          width: 3.8rem;
+        }
+      }
+
+      div#navbarNav {
+        ul.navbar-nav {
+          li.nav-item {
             a.nav-link {
               border-bottom: 4px solid transparent;
+
               &:hover {
                 color: #28a745 !important;
                 border-bottom: 4px solid #28a745;

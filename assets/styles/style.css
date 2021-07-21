@@ -2,11 +2,15 @@ header#home {
   height: 100vh;
 }
 
-header#home nav.navbar .container .navbar-list .nav .nav-item a.nav-link {
+header#home nav.navbar .container .navbar-brand img {
+  width: 3.8rem;
+}
+
+header#home nav.navbar .container div#navbarNav ul.navbar-nav li.nav-item a.nav-link {
   border-bottom: 4px solid transparent;
 }
 
-header#home nav.navbar .container .navbar-list .nav .nav-item a.nav-link:hover {
+header#home nav.navbar .container div#navbarNav ul.navbar-nav li.nav-item a.nav-link:hover {
   color: #28a745 !important;
   border-bottom: 4px solid #28a745;
 }
