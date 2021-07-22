@@ -62,6 +62,7 @@ header#home section#who .container a .down-arrow:before {
 
 section#about .container .socials ul li a {
   color: white;
+  text-decoration: none;
 }
 
 section#about .container .socials ul li a i {
@@ -69,6 +70,23 @@ section#about .container .socials ul li a i {
 }
 
 section#about .container .socials ul li a:hover {
+  color: #28a745;
+}
+
+section#skills .container ul {
+  margin: 5rem 0;
+}
+
+section#skills .container ul li a {
+  text-decoration: none;
+}
+
+section#skills .container ul li a i {
+  font-size: 4rem;
+  color: white;
+}
+
+section#skills .container ul li a:hover {
   color: #28a745;
 }
 /*# sourceMappingURL=style.css.map */
