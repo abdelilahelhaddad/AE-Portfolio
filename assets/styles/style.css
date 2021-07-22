@@ -41,7 +41,7 @@ header#home section#who .container a .down-arrow {
           box-sizing: border-box;
 }
 
-header#home section#who .container a .down-arrow:before {
+header#home section#who .container a .down-arrow::before {
   content: "";
   position: absolute;
   -webkit-box-shadow: 4px 4px 0 0 #fff;
@@ -60,6 +60,11 @@ header#home section#who .container a .down-arrow:before {
           box-sizing: border-box;
 }
 
+header#home section#who .container a .down-arrow:hover::before {
+  -webkit-box-shadow: 4px 4px 0 0 #28a745;
+          box-shadow: 4px 4px 0 0 #28a745;
+}
+
 section#about .container .socials ul li a {
   color: white;
   text-decoration: none;
@@ -71,6 +76,11 @@ section#about .container .socials ul li a i {
 
 section#about .container .socials ul li a:hover {
   color: #28a745;
+}
+
+section#about .container .socials ul li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 section#skills .container ul {
@@ -86,7 +96,12 @@ section#skills .container ul li a i {
   color: white;
 }
 
-section#skills .container ul li a:hover {
+section#skills .container ul li a i:hover {
   color: #28a745;
+}
+
+section#skills .container ul li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 /*# sourceMappingURL=style.css.map */

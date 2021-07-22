@@ -48,7 +48,7 @@ header#home {
           box-sizing: border-box;
         }
 
-        .down-arrow:before {
+        .down-arrow::before {
           content: "";
           position: absolute;
           box-shadow: 4px 4px 0 0 #fff;
@@ -61,6 +61,10 @@ header#home {
           -webkit-transition: -webkit-transform .7s;
           transition: transform .7s;
           box-sizing: border-box;
+        }
+
+        .down-arrow:hover::before {
+          box-shadow: 4px 4px 0 0 #28a745;
         }
       }
     }
@@ -84,16 +88,21 @@ section#about {
               color: #28a745;
             }
           }
+
+          &:hover {
+            transform: scale(1.2);
+          }
         }
       }
     }
   }
 }
 
-section#skills{
-  .container{
+section#skills {
+  .container {
     ul {
       margin: 5rem 0;
+
       li {
         a {
           text-decoration: none;
@@ -101,11 +110,15 @@ section#skills{
           i {
             font-size: 4rem;
             color: white;
-          }
 
-          &:hover {
-            color: #28a745;
+            &:hover {
+              color: #28a745;
+            }
           }
+        }
+
+        &:hover {
+          transform: scale(1.2);
         }
       }
     }
