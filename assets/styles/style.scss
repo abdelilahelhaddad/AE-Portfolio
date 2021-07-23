@@ -124,3 +124,43 @@ section#skills {
     }
   }
 }
+
+section#contact {
+  .container {
+    .socials {
+      ul {
+        li {
+          a {
+            color: white;
+            text-decoration: none;
+
+            i {
+              font-size: 3rem;
+            }
+
+            &:hover {
+              color: #28a745;
+            }
+          }
+
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+
+    .backToTop {
+      cursor: pointer;
+      margin: 6rem auto;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+footer#footer {
+  margin-top: 7rem;
+}

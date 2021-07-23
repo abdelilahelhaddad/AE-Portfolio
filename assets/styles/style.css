@@ -104,4 +104,36 @@ section#skills .container ul li:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
+
+section#contact .container .socials ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section#contact .container .socials ul li a i {
+  font-size: 3rem;
+}
+
+section#contact .container .socials ul li a:hover {
+  color: #28a745;
+}
+
+section#contact .container .socials ul li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+section#contact .container .backToTop {
+  cursor: pointer;
+  margin: 6rem auto;
+}
+
+section#contact .container .backToTop:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer#footer {
+  margin-top: 7rem;
+}
 /*# sourceMappingURL=style.css.map */
