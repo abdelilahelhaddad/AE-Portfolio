@@ -124,8 +124,13 @@ section#contact .container .socials ul li:hover {
 }
 
 section#contact .container .backToTop {
-  cursor: pointer;
   margin: 6rem auto;
+}
+
+section#contact .container .backToTop a.text-light:hover,
+section#contact .container .backToTop a.text-light:focus {
+  text-decoration: none;
+  color: #28a745 !important;
 }
 
 section#contact .container .backToTop:hover {
@@ -135,5 +140,6 @@ section#contact .container .backToTop:hover {
 
 footer#footer {
   margin-top: 7rem;
+  margin-bottom: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

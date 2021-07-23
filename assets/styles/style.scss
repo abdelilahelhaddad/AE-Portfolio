@@ -151,8 +151,13 @@ section#contact {
     }
 
     .backToTop {
-      cursor: pointer;
       margin: 6rem auto;
+
+      a.text-light:hover,
+      a.text-light:focus {
+        text-decoration: none;
+        color: #28a745 !important;
+      }
 
       &:hover {
         transform: scale(1.2);
@@ -163,4 +168,5 @@ section#contact {
 
 footer#footer {
   margin-top: 7rem;
+  margin-bottom: 2rem;
 }
