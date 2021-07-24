@@ -130,6 +130,36 @@ section#skills {
   }
 }
 
+section#projects {
+  .container {
+    img{
+      width: 500px;
+    }
+    ul {
+      margin: 2rem 0;
+
+      li {
+        a {
+          text-decoration: none;
+
+          i {
+            font-size: 4rem;
+            color: white;
+
+            &:hover {
+              color: #28a745;
+            }
+          }
+        }
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+
 section#contact {
   .container {
     .socials {

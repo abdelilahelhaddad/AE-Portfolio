@@ -110,6 +110,32 @@ section#skills .container ul li:hover {
           transform: scale(1.2);
 }
 
+section#projects .container img {
+  width: 500px;
+}
+
+section#projects .container ul {
+  margin: 2rem 0;
+}
+
+section#projects .container ul li a {
+  text-decoration: none;
+}
+
+section#projects .container ul li a i {
+  font-size: 4rem;
+  color: white;
+}
+
+section#projects .container ul li a i:hover {
+  color: #28a745;
+}
+
+section#projects .container ul li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 section#contact .container .socials ul li a {
   color: white;
   text-decoration: none;
