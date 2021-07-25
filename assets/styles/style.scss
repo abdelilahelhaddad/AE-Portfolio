@@ -72,6 +72,13 @@ header#home {
           box-shadow: 4px 4px 0 0 #28a745;
         }
       }
+
+      @media screen and (max-width:767px) {
+        p {
+          font-size: 2.5rem !important;
+          text-align: center !important;
+        }
+      }
     }
   }
 }
@@ -101,7 +108,7 @@ section#about {
       }
     }
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:767px) {
       img {
         width: 300px;
       }
@@ -131,6 +138,12 @@ section#skills {
         &:hover {
           transform: scale(1.2);
         }
+      }
+    }
+
+    @media screen and (max-width:767px) {
+      .h5 {
+        font-size: 0.85rem !important;
       }
     }
   }
@@ -165,9 +178,17 @@ section#projects {
       }
     }
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:767px) {
       img {
         width: 300px;
+      }
+
+      .reverse {
+        flex-direction: column-reverse;
+      }
+
+      .h6 {
+        font-size: 0.85rem !important;
       }
     }
   }
