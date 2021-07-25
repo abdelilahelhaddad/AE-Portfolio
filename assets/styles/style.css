@@ -88,6 +88,12 @@ section#about .container .socials ul li:hover {
           transform: scale(1.2);
 }
 
+@media screen and (max-width: 768px) {
+  section#about .container img {
+    width: 300px;
+  }
+}
+
 section#skills .container ul {
   margin: 5rem 0;
 }
