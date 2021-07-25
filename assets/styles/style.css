@@ -136,6 +136,12 @@ section#projects .container ul li:hover {
           transform: scale(1.2);
 }
 
+@media screen and (max-width: 768px) {
+  section#projects .container img {
+    width: 300px;
+  }
+}
+
 section#contact .container .socials ul li a {
   color: white;
   text-decoration: none;

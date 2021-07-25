@@ -158,6 +158,11 @@ section#projects {
         }
       }
     }
+    @media screen and (max-width:768px){
+      img{
+        width: 300px;
+      }
+    }
   }
 }
 
