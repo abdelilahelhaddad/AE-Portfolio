@@ -4,8 +4,6 @@ h1 {
 }
 
 header#home {
-  height: 100vh;
-
   nav.navbar {
     .container {
       .navbar-brand {
@@ -32,11 +30,8 @@ header#home {
   }
 
   section#who {
-    height: 100%;
-
     .container {
-      height: 100%;
-      padding-top: 10%;
+      margin: 6rem auto;
 
       a {
         margin-top: 5rem;
