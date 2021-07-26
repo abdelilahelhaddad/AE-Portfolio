@@ -95,12 +95,6 @@ section#about .container .socials ul li:hover {
           transform: scale(1.2);
 }
 
-@media screen and (max-width: 767px) {
-  section#about .container img {
-    width: 300px;
-  }
-}
-
 section#skills .container ul {
   margin: 5rem 0;
 }
@@ -129,10 +123,6 @@ section#skills .container ul li:hover {
   }
 }
 
-section#projects .container img {
-  width: 500px;
-}
-
 section#projects .container ul {
   margin: 2rem 0;
 }
@@ -156,9 +146,6 @@ section#projects .container ul li:hover {
 }
 
 @media screen and (max-width: 767px) {
-  section#projects .container img {
-    width: 300px;
-  }
   section#projects .container .reverse {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;

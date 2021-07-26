@@ -107,12 +107,6 @@ section#about {
         }
       }
     }
-
-    @media screen and (max-width:767px) {
-      img {
-        width: 300px;
-      }
-    }
   }
 }
 
@@ -151,9 +145,6 @@ section#skills {
 
 section#projects {
   .container {
-    img {
-      width: 500px;
-    }
 
     ul {
       margin: 2rem 0;
@@ -179,9 +170,6 @@ section#projects {
     }
 
     @media screen and (max-width:767px) {
-      img {
-        width: 300px;
-      }
 
       .reverse {
         flex-direction: column-reverse;
