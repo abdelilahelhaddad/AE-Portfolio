@@ -127,8 +127,13 @@ section#projects .container ul li a i {
   color: white;
 }
 
-section#projects .container ul li a i:hover {
+section#projects .container ul li a i:hover:not(.github) {
   color: #28a745;
+}
+
+section#projects .container ul li a.h4 {
+  color: white;
+  border-radius: 5px;
 }
 
 section#projects .container ul li:hover {

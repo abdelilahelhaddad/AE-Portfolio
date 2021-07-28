@@ -152,10 +152,15 @@ section#projects {
             font-size: 4rem;
             color: white;
 
-            &:hover {
+            &:hover:not(.github) {
               color: #28a745;
             }
           }
+        }
+
+        a.h4 {
+          color: white;
+          border-radius: 5px;
         }
 
         &:hover {
