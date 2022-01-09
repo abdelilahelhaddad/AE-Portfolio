@@ -15,7 +15,7 @@ header#home {
       div#navbarNav {
         ul.navbar-nav {
           li.nav-item {
-            a.nav-link {
+            a.nav-link:not(#themeToggle) {
               border-bottom: 4px solid transparent;
 
               &:hover {
@@ -24,6 +24,18 @@ header#home {
               }
             }
           }
+        }
+
+        svg {
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+
+        #moon {
+          display: none;
         }
       }
     }

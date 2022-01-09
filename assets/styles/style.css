@@ -7,13 +7,26 @@ header#home nav.navbar .container .navbar-brand img {
   width: 3.8rem;
 }
 
-header#home nav.navbar .container div#navbarNav ul.navbar-nav li.nav-item a.nav-link {
+header#home nav.navbar .container div#navbarNav ul.navbar-nav li.nav-item a.nav-link:not(#themeToggle) {
   border-bottom: 4px solid transparent;
 }
 
-header#home nav.navbar .container div#navbarNav ul.navbar-nav li.nav-item a.nav-link:hover {
+header#home nav.navbar .container div#navbarNav ul.navbar-nav li.nav-item a.nav-link:not(#themeToggle):hover {
   color: #28a745 !important;
   border-bottom: 4px solid #28a745;
+}
+
+header#home nav.navbar .container div#navbarNav svg {
+  cursor: pointer;
+}
+
+header#home nav.navbar .container div#navbarNav svg:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+header#home nav.navbar .container div#navbarNav #moon {
+  display: none;
 }
 
 header#home section#who .container {
