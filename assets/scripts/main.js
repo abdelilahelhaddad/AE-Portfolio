@@ -16,6 +16,11 @@ sunSvg.addEventListener('click', () => {
     iconColor.style.color = '#343a40';
   });
 
+  Array.from(document.querySelectorAll('nav')).forEach(function (mobileNav) {
+    mobileNav.classList.add('navbar-light');
+    mobileNav.classList.remove('navbar-dark');
+  });
+
   sunSvg.classList.remove('show');
   sunSvg.classList.add('hide');
   moonSvg.classList.add('show');
@@ -36,6 +41,10 @@ moonSvg.addEventListener('click', () => {
     iconColor.style.color = '#FFFFFF';
   });
 
+  Array.from(document.querySelectorAll('nav')).forEach(function (mobileNav) {
+    mobileNav.classList.add('navbar-dark');
+    mobileNav.classList.remove('navbar-light');
+  });
 
   sunSvg.classList.add('show');
   sunSvg.classList.remove('hide');

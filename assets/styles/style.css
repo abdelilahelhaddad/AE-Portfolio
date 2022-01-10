@@ -18,6 +18,7 @@ header#home nav.navbar .container div#navbarNav ul.navbar-nav li.nav-item a.nav-
 
 header#home nav.navbar .container div#navbarNav svg {
   cursor: pointer;
+  margin: 0 auto;
 }
 
 header#home nav.navbar .container div#navbarNav svg:hover {
@@ -34,9 +35,7 @@ header#home nav.navbar .container div#navbarNav .hide {
 }
 
 header#home nav.navbar .container div#navbarNav .show {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: block !important;
 }
 
 header#home section#who .container {
@@ -63,8 +62,8 @@ header#home section#who .container a .down-arrow {
 header#home section#who .container a .down-arrow::before {
   content: "";
   position: absolute;
-  -webkit-box-shadow: 4px 4px 0 0 #fff;
-          box-shadow: 4px 4px 0 0 #fff;
+  -webkit-box-shadow: 4px 4px 0 0 #28a745;
+          box-shadow: 4px 4px 0 0 #28a745;
   left: 50%;
   top: 50%;
   width: 100%;

@@ -28,6 +28,7 @@ header#home {
 
         svg {
           cursor: pointer;
+          margin: 0 auto;
 
           &:hover {
             transform: scale(1.2);
@@ -38,12 +39,12 @@ header#home {
           display: none;
         }
 
-        .hide{
-          display:none;
+        .hide {
+          display: none;
         }
 
         .show {
-          display: flex !important;
+          display: block !important;
         }
       }
     }
@@ -71,7 +72,7 @@ header#home {
         .down-arrow::before {
           content: "";
           position: absolute;
-          box-shadow: 4px 4px 0 0 #fff;
+          box-shadow: 4px 4px 0 0 #28a745;
           left: 50%;
           top: 50%;
           width: 100%;
