@@ -29,6 +29,16 @@ header#home nav.navbar .container div#navbarNav #moon {
   display: none;
 }
 
+header#home nav.navbar .container div#navbarNav .hide {
+  display: none;
+}
+
+header#home nav.navbar .container div#navbarNav .show {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
 header#home section#who .container {
   margin: 6rem auto;
 }

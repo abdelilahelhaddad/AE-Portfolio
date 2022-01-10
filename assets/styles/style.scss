@@ -37,6 +37,14 @@ header#home {
         #moon {
           display: none;
         }
+
+        .hide{
+          display:none;
+        }
+
+        .show {
+          display: flex !important;
+        }
       }
     }
   }
