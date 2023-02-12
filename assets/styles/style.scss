@@ -1,6 +1,10 @@
 h1 {
-  margin: 6rem auto;
+  margin: 3.5rem auto;
   border-bottom: 7px solid #28a745;
+}
+
+hr {
+  background-color: #28a745 !important;
 }
 
 header#home {
@@ -31,7 +35,7 @@ header#home {
           margin: 0 auto;
 
           &:hover {
-            transform: scale(1.2);
+            transform: scale(1.1);
           }
         }
 
@@ -77,10 +81,12 @@ header#home {
           top: 50%;
           width: 100%;
           height: 100%;
-          -webkit-transform: translate(-50% -70%) rotate(45deg) rotateY(0deg) rotateX(0deg);
-          transform: translate(-50%, -70%) rotate(45deg) rotateY(0deg) rotateX(0deg);
-          -webkit-transition: -webkit-transform .7s;
-          transition: transform .7s;
+          -webkit-transform: translate(-50% -70%) rotate(45deg) rotateY(0deg)
+            rotateX(0deg);
+          transform: translate(-50%, -70%) rotate(45deg) rotateY(0deg)
+            rotateX(0deg);
+          -webkit-transition: -webkit-transform 0.7s;
+          transition: transform 0.7s;
           box-sizing: border-box;
         }
 
@@ -89,7 +95,7 @@ header#home {
         }
       }
 
-      @media screen and (max-width:767px) {
+      @media screen and (max-width: 767px) {
         p {
           font-size: 2.5rem !important;
           text-align: center !important;
@@ -118,7 +124,7 @@ section#about {
           }
 
           &:hover {
-            transform: scale(1.2);
+            transform: scale(1.1);
           }
         }
       }
@@ -146,12 +152,12 @@ section#skills {
         }
 
         &:hover {
-          transform: scale(1.2);
+          transform: scale(1.1);
         }
       }
     }
 
-    @media screen and (max-width:767px) {
+    @media screen and (max-width: 767px) {
       .h5 {
         font-size: 0.85rem !important;
       }
@@ -161,7 +167,6 @@ section#skills {
 
 section#projects {
   .container {
-
     ul {
       margin: 2rem 0;
 
@@ -185,13 +190,12 @@ section#projects {
         }
 
         &:hover {
-          transform: scale(1.2);
+          transform: scale(1.1);
         }
       }
     }
 
-    @media screen and (max-width:767px) {
-
+    @media screen and (max-width: 767px) {
       .reverse {
         flex-direction: column-reverse;
       }
@@ -222,7 +226,7 @@ section#contact {
           }
 
           &:hover {
-            transform: scale(1.2);
+            transform: scale(1.1);
           }
         }
       }
@@ -238,13 +242,12 @@ section#contact {
       }
 
       &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
       }
     }
   }
 }
 
 footer#footer {
-  margin-top: 7rem;
-  margin-bottom: 2rem;
+  margin: 3rem 0;
 }

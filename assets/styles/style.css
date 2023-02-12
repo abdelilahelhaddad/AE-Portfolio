@@ -1,51 +1,44 @@
 h1 {
-  margin: 6rem auto;
+  margin: 3.5rem auto;
   border-bottom: 7px solid #28a745;
+}
+
+hr {
+  background-color: #28a745 !important;
 }
 
 header#home nav.navbar .container .navbar-brand img {
   width: 3.8rem;
 }
-
 header#home nav.navbar .container div#navbarNav ul.navbar-nav li.nav-item a.nav-link:not(#themeToggle) {
   border-bottom: 4px solid transparent;
 }
-
 header#home nav.navbar .container div#navbarNav ul.navbar-nav li.nav-item a.nav-link:not(#themeToggle):hover {
   color: #28a745 !important;
   border-bottom: 4px solid #28a745;
 }
-
 header#home nav.navbar .container div#navbarNav svg {
   cursor: pointer;
   margin: 0 auto;
 }
-
 header#home nav.navbar .container div#navbarNav svg:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.1);
 }
-
 header#home nav.navbar .container div#navbarNav #moon {
   display: none;
 }
-
 header#home nav.navbar .container div#navbarNav .hide {
   display: none;
 }
-
 header#home nav.navbar .container div#navbarNav .show {
   display: block !important;
 }
-
 header#home section#who .container {
   margin: 6rem auto;
 }
-
 header#home section#who .container a {
   margin-top: 5rem;
 }
-
 header#home section#who .container a .down-arrow {
   position: relative;
   display: inline-block;
@@ -55,34 +48,23 @@ header#home section#who .container a .down-arrow {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 header#home section#who .container a .down-arrow::before {
   content: "";
   position: absolute;
-  -webkit-box-shadow: 4px 4px 0 0 #28a745;
-          box-shadow: 4px 4px 0 0 #28a745;
+  box-shadow: 4px 4px 0 0 #28a745;
   left: 50%;
   top: 50%;
   width: 100%;
   height: 100%;
-  -webkit-transform: translate(-50% -70%) rotate(45deg) rotateY(0deg) rotateX(0deg);
   transform: translate(-50%, -70%) rotate(45deg) rotateY(0deg) rotateX(0deg);
-  -webkit-transition: -webkit-transform .7s;
-  transition: -webkit-transform .7s;
-  transition: transform .7s;
-  transition: transform .7s, -webkit-transform .7s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  transition: transform 0.7s;
+  box-sizing: border-box;
 }
-
 header#home section#who .container a .down-arrow:hover::before {
-  -webkit-box-shadow: 4px 4px 0 0 #28a745;
-          box-shadow: 4px 4px 0 0 #28a745;
+  box-shadow: 4px 4px 0 0 #28a745;
 }
-
 @media screen and (max-width: 767px) {
   header#home section#who .container p {
     font-size: 2.5rem !important;
@@ -94,42 +76,32 @@ section#about .container .socials ul li a {
   color: white;
   text-decoration: none;
 }
-
 section#about .container .socials ul li a i {
   font-size: 3rem;
 }
-
 section#about .container .socials ul li a:hover {
   color: #28a745;
 }
-
 section#about .container .socials ul li:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 section#skills .container ul {
   margin: 5rem 0;
 }
-
 section#skills .container ul li a {
   text-decoration: none;
 }
-
 section#skills .container ul li a i {
   font-size: 4rem;
   color: white;
 }
-
 section#skills .container ul li a i:hover {
   color: #28a745;
 }
-
 section#skills .container ul li:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.1);
 }
-
 @media screen and (max-width: 767px) {
   section#skills .container .h5 {
     font-size: 0.85rem !important;
@@ -139,36 +111,26 @@ section#skills .container ul li:hover {
 section#projects .container ul {
   margin: 2rem 0;
 }
-
 section#projects .container ul li a {
   text-decoration: none;
 }
-
 section#projects .container ul li a i {
   font-size: 4rem;
   color: white;
 }
-
 section#projects .container ul li a i:hover:not(.github) {
   color: #28a745;
 }
-
 section#projects .container ul li a.h5 {
   color: white;
   border-radius: 5px;
 }
-
 section#projects .container ul li:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.1);
 }
-
 @media screen and (max-width: 767px) {
   section#projects .container .reverse {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   section#projects .container .h6 {
     font-size: 0.85rem !important;
@@ -179,37 +141,27 @@ section#contact .container .socials ul li a {
   color: white;
   text-decoration: none;
 }
-
 section#contact .container .socials ul li a i {
   font-size: 3rem;
 }
-
 section#contact .container .socials ul li a:hover {
   color: #28a745;
 }
-
 section#contact .container .socials ul li:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.1);
 }
-
 section#contact .container .backToTop {
   margin: 6rem auto;
 }
-
 section#contact .container .backToTop a.text-light:hover,
 section#contact .container .backToTop a.text-light:focus {
   text-decoration: none;
   color: #28a745 !important;
 }
-
 section#contact .container .backToTop:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 footer#footer {
-  margin-top: 7rem;
-  margin-bottom: 2rem;
-}
-/*# sourceMappingURL=style.css.map */
+  margin: 3rem 0;
+}/*# sourceMappingURL=style.css.map */
